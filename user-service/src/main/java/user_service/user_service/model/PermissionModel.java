@@ -22,7 +22,7 @@ public class PermissionModel {
      // this is just default controller
     public PermissionModel() {}
 
-    // Parameterized constructor
+    // Parameterized constructor wih arguments
     public PermissionModel(String permissionName, String descriptions) {
         this.permissionName = permissionName;
         this.descriptions = descriptions;
